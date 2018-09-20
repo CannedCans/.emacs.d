@@ -23,4 +23,5 @@ apt-get update
 # elpa-iedit - Allows you to edit multiple occurrences of the same string at the same time
 # elpa-elfeed - An RSS reader
 # slime - Common Lisp support
-apt-get install -y elpa-magit elpa-company auctex elpa-js2-mode elpa-iedit elpa-elfeed slime
+# elpa-git-timemachine - Easily go forward and backwards in a file in a git repo
+apt-get install -y elpa-magit elpa-company auctex elpa-js2-mode elpa-iedit elpa-elfeed slime elpa-git-timemachine
