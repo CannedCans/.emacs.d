@@ -18,7 +18,8 @@ apt-get update
 # What the packages are
 # Magit - Nice git commands
 # Company - Auto-completion for many things
+# Auctex - A somewhat nicer LaTeX mode
 # elpa-js2-mode - Javascript modes
 # elpa-iedit - Allows you to edit multiple occurrences of the same string at the same time
 # elpa-elfeed - An RSS reader
-apt-get install -y elpa-magit elpa-company elpa-js2-mode elpa-iedit elpa-elfeed
+apt-get install -y elpa-magit elpa-company auctex elpa-js2-mode elpa-iedit elpa-elfeed
