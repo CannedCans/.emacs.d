@@ -3,8 +3,8 @@
 # Debian supports many Emacs packages built in to the repository
 # This has advantages, primarily related to security, as many Emacs
 # repositories (eg. Melpa) have little to no security
-# If this file is executed as root, it will update the package listings
-# and then install the packages I use
+# If this file is executed as root, it will update the package listings,
+# install Emacs 25/set to manually installed, then install the packages I use
 
 if [[ $EUID -ne 0 ]]; then
     echo "Error: This script must be executed as root as it updates your apt package listings and installs packages"
@@ -12,8 +12,11 @@ if [[ $EUID -ne 0 ]]; then
     
 fi
 
-
+# Update the package list
 apt-get update
+
+# Ensure that Emacs 25 is installed/set to manually installed
+apt-get install -y emacs25
 
 # What the packages are
 # Magit - Nice git commands
