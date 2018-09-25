@@ -20,10 +20,10 @@
 ;; This turns on company-mode in all buffers if installed
 (if (package-installed-p 'company)
     (add-hook 'after-init-hook 'global-company-mode)
-    (message "CC - Company enabled")
+    (message "CC - Company not installed")
 )
 
 ;; Enables yasnippet in all buffers if installed
 (if (package-installed-p 'yasnippet)
     (yas-global-mode 1)
-    (message "CC - Yasnippet enabled"))
+    (message "CC - Yasnippet not installed"))
