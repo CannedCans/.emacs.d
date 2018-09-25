@@ -19,3 +19,6 @@
 
 ;; This turns on company-mode in all buffers
 (add-hook 'after-init-hook 'global-company-mode)
+
+;; Enables yasnippet in all buffers
+(yas-global-mode 1)
