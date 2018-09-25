@@ -29,4 +29,5 @@ apt-get install -y emacs25
 # elpa-git-timemachine - Easily go forward and backwards in a file in a git repo
 # elpa-yasnippet - Templates
 # elpa-projectile - Easier project navigation
-apt-get install -y elpa-magit elpa-company auctex elpa-js2-mode elpa-iedit elpa-elfeed slime elpa-git-timemachine elpa-yasnippet elpa-projectile
+# elpa-anzu - Shows the amount of matches when searching with C-s
+apt-get install -y elpa-magit elpa-company auctex elpa-js2-mode elpa-iedit elpa-elfeed slime elpa-git-timemachine elpa-yasnippet elpa-projectile elpa-anzu

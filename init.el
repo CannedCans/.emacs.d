@@ -44,3 +44,12 @@
       )
     (message "CC - Projectile not installed")
 )
+
+;; Enables Anzu (search counter) if installed
+(if (package-installed-p 'anzu)
+    (progn
+      (global-anzu-mode +1)
+      (message "CC - Anzu enabled")
+      )
+    (message "CC - Anzu not installed")
+)
