@@ -19,18 +19,28 @@
 
 ;; This turns on company-mode in all buffers if installed
 (if (package-installed-p 'company)
-    (add-hook 'after-init-hook 'global-company-mode)
+    (progn
+      (add-hook 'after-init-hook 'global-company-mode)
+      (message "CC - Company enabled")
+      )
     (message "CC - Company not installed")
 )
 
 ;; Enables yasnippet in all buffers if installed
 (if (package-installed-p 'yasnippet)
-    (yas-global-mode 1)
+    (progn
+      (yas-global-mode 1)
+      (message "CC - Yasnippet enabled")
+      )
     (message "CC - Yasnippet not installed")
 )
 
 ;; Enables projectile in all buffers if installed
 (if (package-installed-p 'projectile)
-    (projectile-global-mode +1)
+    (progn
+      (projectile-global-mode +1)
+      (define-key projectile-mode-map (kbd "C-c s") 'projectile-command-map)
+      (message "CC - Projectile enabled")
+      )
     (message "CC - Projectile not installed")
 )
