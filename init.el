@@ -17,8 +17,13 @@
 ;; This is great for RSS feeds through Elfeed
 (setq browse-url-browser-function 'eww-browse-url)
 
-;; This turns on company-mode in all buffers
-(add-hook 'after-init-hook 'global-company-mode)
+;; This turns on company-mode in all buffers if installed
+(if (package-installed-p 'company)
+    (add-hook 'after-init-hook 'global-company-mode)
+    (message "CC - Company enabled")
+)
 
-;; Enables yasnippet in all buffers
-(yas-global-mode 1)
+;; Enables yasnippet in all buffers if installed
+(if (package-installed-p 'yasnippet)
+    (yas-global-mode 1)
+    (message "CC - Yasnippet enabled"))
