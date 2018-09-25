@@ -27,4 +27,5 @@ apt-get install -y emacs25
 # elpa-elfeed - An RSS reader
 # slime - Common Lisp support
 # elpa-git-timemachine - Easily go forward and backwards in a file in a git repo
-apt-get install -y elpa-magit elpa-company auctex elpa-js2-mode elpa-iedit elpa-elfeed slime elpa-git-timemachine
+# elpa-yasnippet - Templates
+apt-get install -y elpa-magit elpa-company auctex elpa-js2-mode elpa-iedit elpa-elfeed slime elpa-git-timemachine elpa-yasnippet
