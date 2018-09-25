@@ -26,4 +26,11 @@
 ;; Enables yasnippet in all buffers if installed
 (if (package-installed-p 'yasnippet)
     (yas-global-mode 1)
-    (message "CC - Yasnippet not installed"))
+    (message "CC - Yasnippet not installed")
+)
+
+;; Enables projectile in all buffers if installed
+(if (package-installed-p 'projectile)
+    (projectile-global-mode +1)
+    (message "CC - Projectile not installed")
+)
