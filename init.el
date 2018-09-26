@@ -54,3 +54,14 @@
       )
     (message "CC - Anzu not installed")
 )
+
+;; Magit keybindings
+(if (package-installed-p 'magit)
+    (progn
+      (global-set-key (kbd "C-c M-c") 'magit-commit)
+      (global-set-key (kbd "C-c M-s") 'magit-stage-file)
+      (global-set-key (kbd "C-c M-p") 'magit-push-to-remote)
+      (message "CC - Magit enabled")
+      )
+    (message "CC - Magit not installed")
+)
