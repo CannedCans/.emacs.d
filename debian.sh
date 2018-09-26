@@ -5,6 +5,7 @@
 # repositories (eg. Melpa) have little to no security
 # If this file is executed as root, it will update the package listings,
 # install Emacs 25/set to manually installed, then install the packages I use
+# It will also ensure gnutls is installed
 
 if [[ $EUID -ne 0 ]]; then
     echo "Error: This script must be executed as root as it updates your apt package listings and installs packages"
@@ -17,6 +18,10 @@ apt-get update
 
 # Ensure that Emacs 25 is installed/set to manually installed
 apt-get install -y emacs25
+
+# Ensure that gnutls is installed/set to manually installed
+# Used for things like email
+apt-get install -y gnutls-bin
 
 # What the packages are
 # Magit - Nice git commands
