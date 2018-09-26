@@ -1,5 +1,11 @@
 (package-initialize)
 
+;; Loads a file that is under the .emacs.d directory (user-emacs-directory)
+;; eg. (cc-load-file "settings/ccelfeed.el")
+(defun cc-load-file (relpath)
+  (load-file (concat user-emacs-directory relpath))
+)
+
 (global-linum-mode 60)   ;; Puts line numbers on the left of every buffer
 (display-time-mode 60)   ;; Puts a time display on the bottom
 (display-battery-mode 1) ;; Shows the battery at the bottom
@@ -69,12 +75,7 @@
 ;; Elfeed feeds
 (if (package-installed-p 'elfeed)
     (progn
-      (setq elfeed-feeds
-	    '(
-	      ("https://xkcd.com/rss.xml" comic)
-	      ("https://rss.cbc.ca/lineup/topstories.xml" news)
-	     )
-	    )
+      (cc-load-file "settings/ccelfeed.el")
       (message "CC - Elfeed enabled")
       )
   (message "CC - Elfeed not installed")
