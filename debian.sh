@@ -24,7 +24,7 @@ apt-get install -y emacs25
 # Auctex - A somewhat nicer LaTeX mode
 # elpa-js2-mode - Javascript modes
 # elpa-iedit - Allows you to edit multiple occurrences of the same string at the same time
-# elpa-elfeed - An RSS reader
+# elpa-elfeed - A RSS reader
 # slime - Common Lisp support
 # elpa-git-timemachine - Easily go forward and backwards in a file in a git repo
 # elpa-yasnippet - Templates (some come with this if you install via Debian)

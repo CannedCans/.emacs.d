@@ -65,3 +65,13 @@
       )
     (message "CC - Magit not installed")
 )
+
+;; Elfeed feeds
+(if (package-installed-p 'elfeed)
+    (progn
+      (setq elfeed-feeds
+	    '(("https://xkcd.com/rss.xml" comic)))
+      (message "CC - Elfeed enabled")
+      )
+  (message "CC - Elfeed not installed")
+)
