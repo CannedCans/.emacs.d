@@ -30,6 +30,7 @@
 (if (package-installed-p 'yasnippet)
     (progn
       (yas-global-mode 1)
+      (global-set-key (kbd "C-c y") 'yas-new-snippet)
       (message "CC - Yasnippet enabled")
       )
     (message "CC - Yasnippet not installed")
