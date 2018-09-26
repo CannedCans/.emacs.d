@@ -1,5 +1,5 @@
 # Attribution
-Initial work copied from https://www.emacswiki.org/emacs/GnusGmail
+Initial work copied from https://www.emacswiki.org/emacs/GnusGmail, licensed under GPL 2
 
 # Purpose
 * Allows you to use Gnus with Gmail
