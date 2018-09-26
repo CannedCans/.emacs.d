@@ -5,5 +5,5 @@ Note: If you choose to use this config on your own computer, you may have to jum
 
 If you are using Debian, run `debian.sh` as root and it will install the packages that I use.
 
-eg. `cd ~/.emacs.d; sudo ./debian.sh` (you must have a sudo access to do this)
+eg. `cd ~/.emacs.d; sudo ./debian.sh` (you must have sudo access to do this)
 
