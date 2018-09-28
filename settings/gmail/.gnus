@@ -1,5 +1,5 @@
-(setq user-mail-address "<EMAIL_ADDRESS>"
-      user-full-name "<FULL NAME>")
+(setq user-mail-address "YOUREMAILHERE"
+      user-full-name "YOURNAMEHERE")
 
 (setq gnus-select-method
       '(nnimap "gmail"
