@@ -26,7 +26,6 @@ apt-get install -y gnutls-bin
 # What the packages are
 # Magit - Nice git commands
 # Company - Auto-completion for many things
-# Auctex - A somewhat nicer LaTeX mode
 # elpa-js2-mode - Javascript modes
 # elpa-iedit - Allows you to edit multiple occurrences of the same string at the same time
 # elpa-elfeed - A RSS reader
@@ -35,4 +34,8 @@ apt-get install -y gnutls-bin
 # elpa-yasnippet - Templates (some come with this if you install via Debian)
 # elpa-projectile - Easier project navigation
 # elpa-anzu - Shows the amount of matches when searching with C-s
-apt-get install -y elpa-magit elpa-company auctex elpa-js2-mode elpa-iedit elpa-elfeed slime elpa-git-timemachine elpa-yasnippet elpa-projectile elpa-anzu
+apt-get install -y elpa-magit elpa-company elpa-js2-mode elpa-iedit elpa-elfeed slime elpa-git-timemachine elpa-yasnippet elpa-projectile elpa-anzu
+
+# Install the heavier packages that are somewhat optional
+# Auctex - A somewhat nicer LaTeX mode, requires lots of LaTeX packages to install
+apt-get install -y auctex
