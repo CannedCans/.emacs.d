@@ -6,6 +6,7 @@
 # If this file is executed as root, it will update the package listings,
 # install Emacs 25/set to manually installed, then install the packages I use
 # It will also ensure gnutls is installed
+# It will also install the non-free documentation packages
 
 if [[ $EUID -ne 0 ]]; then
     echo "Error: This script must be executed as root as it updates your apt package listings and installs packages"
@@ -41,3 +42,6 @@ apt-get install -y elpa-magit elpa-company elpa-js2-mode elpa-iedit elpa-elfeed 
 # Install the heavier packages that are somewhat optional
 # Auctex - A somewhat nicer LaTeX mode, requires lots of LaTeX packages to install
 apt-get install -y auctex
+
+# Install the non-free documentation packages
+apt-get install -y emacs25-common-non-dfsg org-mode-doc
