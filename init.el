@@ -84,6 +84,7 @@
 ;; Do any Hydra loading if installed
 (if (package-installed-p 'hydra)
     (progn
+      (cc-load-file "settings/cchydra.el")
       (message "CC - Hydra enabled")
       )
   (message "CC - Hydra not installed")
