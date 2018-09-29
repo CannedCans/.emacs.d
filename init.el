@@ -80,3 +80,11 @@
       )
   (message "CC - Elfeed not installed")
 )
+
+;; Do any Hydra loading if installed
+(if (package-installed-p 'hydra)
+    (progn
+      (message "CC - Hydra enabled")
+      )
+  (message "CC - Hydra not installed")
+)
