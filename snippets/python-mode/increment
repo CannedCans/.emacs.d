@@ -2,4 +2,4 @@
 # name: increment
 # key: inc
 # --
-+= $0
+${1:variable} += ${2:amount}$0
