@@ -23,6 +23,10 @@
 ;; This is great for RSS feeds through Elfeed
 (setq browse-url-browser-function 'eww-browse-url)
 
+;; General Bindings
+(global-set-key (kbd "C-c r") 'recenter)
+
+
 ;; This turns on company-mode in all buffers if installed
 (if (package-installed-p 'company)
     (progn
