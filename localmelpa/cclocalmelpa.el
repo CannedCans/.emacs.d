@@ -5,8 +5,6 @@
 ;; Constants related to the local MELPA
 (defconst cc-use-local-melpa t)
 (defconst cc-local-melpa-path (substitute-in-file-name "$HOME/melpa"))
-;; The path for package-archives
-(defconst cc-local-melpa-use-path (concat cc-local-melpa-path "html"))
 
 ;; Check if there is a MELPA repo at the directory
 ;; Set cc-local-melpa-available to t if there is
