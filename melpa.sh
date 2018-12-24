@@ -22,5 +22,6 @@ cd melpa
 make recipes/magit
 make recipes/multiple-cursors
 make recipes/aggressive-indent
+make recipes/ws-butler
 
 make json

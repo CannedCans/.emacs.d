@@ -5,6 +5,7 @@
 (setq cc-local-melpa-package-list '(
 multiple-cursors
 aggressive-indent
+ws-butler
 ))
 
 (if cc-use-local-melpa

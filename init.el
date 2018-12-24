@@ -109,3 +109,7 @@
       )
   (message "CC - Aggressive Indent not installed")
 )
+
+(if (package-installed-p 'ws-butler)
+    (ws-butler-global-mode)
+)
