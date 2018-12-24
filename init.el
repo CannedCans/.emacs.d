@@ -100,3 +100,12 @@
   (message "CC - Hydra not installed")
 )
 
+;; Initialize MELPA only packages
+(if (package-installed-p 'aggressive-indent)
+    (progn
+      (global-aggressive-indent-mode 1)
+      ;;(add-to-list 'aggressive-indent-excluded-modes 'html-mode)
+      (message "CC - Aggressive Indent enabled")
+      )
+  (message "CC - Aggressive Indent not installed")
+)

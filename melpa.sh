@@ -21,5 +21,6 @@ cd melpa
 # Format is recipes/packagename
 make recipes/magit
 make recipes/multiple-cursors
+make recipes/aggressive-indent
 
 make json
