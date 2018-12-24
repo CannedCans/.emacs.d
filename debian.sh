@@ -24,6 +24,10 @@ apt-get install -y emacs25
 # Used for things like email
 apt-get install -y gnutls-bin
 
+# Ensure that make is installed/set to manually installed
+# Used for making a local MELPA
+apt-get install -y make
+
 # What the packages are
 # Magit - Nice git commands
 # Company - Auto-completion for many things

@@ -1,4 +1,4 @@
-(package-initialize)
+
 
 ;; Loads a file that is under the .emacs.d directory (user-emacs-directory)
 ;; eg. (cc-load-file "settings/ccelfeed.el")
@@ -26,6 +26,9 @@
 ;; General Bindings
 (global-set-key (kbd "C-c r") 'recenter)
 
+;; Add our local MELPA (if available)
+(package-initialize)
+(cc-load-file "cclocalmelpa.el")
 
 ;; This turns on company-mode in all buffers if installed
 (if (package-installed-p 'company)
