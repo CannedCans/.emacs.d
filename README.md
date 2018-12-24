@@ -7,3 +7,11 @@ If you are using Debian, run `debian.sh` as root and it will install the package
 
 eg. `cd ~/.emacs.d; sudo ./debian.sh` (you must have sudo access to do this)
 
+# Package Installation From MELPA
+This Emacs configuration uses a local MELPA, stored at ~/melpa
+
+To add a package to be automatically installed, you need to add `make recipes/packagename` to melpa.sh and add packagename to the list in localmelpa/lmpackages.el
+
+Then run `./melpa.sh` (no root) to build the local MELPA
+
+When Emacs is next run, the package will be installed.
