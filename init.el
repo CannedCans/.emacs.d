@@ -31,7 +31,7 @@
 (package-initialize)
 
 ;; Install local MELPA packages
-(cc-load-file "localmelpa/cclmpackages.el")
+(cc-load-file "localmelpa/lmpackages.el")
 
 ;; This turns on company-mode in all buffers if installed
 (if (package-installed-p 'company)
