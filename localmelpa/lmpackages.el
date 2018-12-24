@@ -6,6 +6,7 @@
 multiple-cursors
 aggressive-indent
 ws-butler
+mediawiki
 ))
 
 (if cc-use-local-melpa
