@@ -17,4 +17,7 @@ fi
 
 cd melpa
 make recipes/magit
+make recipes/multiple-cursors
+
 make json
+#make packages/archive-contents

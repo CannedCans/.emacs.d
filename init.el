@@ -27,8 +27,8 @@
 (global-set-key (kbd "C-c r") 'recenter)
 
 ;; Add our local MELPA (if available)
-(package-initialize)
 (cc-load-file "cclocalmelpa.el")
+(package-initialize)
 
 ;; This turns on company-mode in all buffers if installed
 (if (package-installed-p 'company)
@@ -96,3 +96,17 @@
       )
   (message "CC - Hydra not installed")
 )
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (yasnippet projectile markdown-mode magit js2-mode iedit hydra git-timemachine flx-ido elfeed company anzu multiple-cursors))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

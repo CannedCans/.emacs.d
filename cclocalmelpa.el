@@ -18,13 +18,8 @@
 
 (if (and cc-use-local-melpa cc-local-melpa-available)
     (progn
-      ;;((add-to-list package-archives '("melpa-local" . (concat cc-local-melpa-path "html"))))
-      ;;(add-to-list package-archives '("melpa-local" . (cons 'cc-local-melpa-use-path)))
-      ;; (setq package-archives
-      ;;  	    '(("melpa-local" . 'cc-local-melpa-use-path)
-      ;;  	       ("gnu" . "http://elpa.gnu.org/packages/")
-      ;;  	       ))
-      (add-to-list 'package-archives (cons "melpa-local" (concat cc-local-melpa-path "/html")))
+      (add-to-list 'package-archives (cons "melpa-local" (concat cc-local-melpa-path "/packages/")))
+      ;;(setq package-archives '(("melpa-local" . "~/melpa/html/")))
       (message "CC - Local MELPA enabled")
     )
 )
