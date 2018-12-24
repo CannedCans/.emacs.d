@@ -15,3 +15,5 @@ To add a package to be automatically installed, you need to add `make recipes/pa
 Then run `./melpa.sh` (no root) to build the local MELPA
 
 When Emacs is next run, the package will be installed.
+
+If any errors appear where a package is not available when starting Emacs after just adding it to the list, first do `M-x list-packages` then press `g`, wait a few seconds, restart Emacs.
