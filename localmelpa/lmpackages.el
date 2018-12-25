@@ -3,14 +3,24 @@
 
 ;; Set the packages to be installed in this list
 (setq cc-local-melpa-package-list '(
-multiple-cursors
-aggressive-indent
-ws-butler
-mediawiki
-))
+				    multiple-cursors
+				    aggressive-indent
+				    ws-butler
+				    mediawiki
+				    ))
 
-(if cc-use-local-melpa
+;; This can probably be seriously cleaned up
+(if (and cc-use-local-melpa cc-local-melpa-available)
     (dolist (packagea cc-local-melpa-package-list)
       (unless (package-installed-p packagea)
 	(package-install packagea))
-      (require packagea)))
+      (require packagea))
+  (if cc-use-local-melpa
+      ;; If we have no local melpa available but want to use it
+      ;; This will try to check the locally installed packages
+      ;; and require them if available
+      (dolist (packagea cc-local-melpa-package-list)
+	(when (package-installed-p packagea)
+	  (require packagea))))
+
+  )
