@@ -26,6 +26,10 @@
 ;; General Bindings
 (global-set-key (kbd "C-c r") 'recenter)
 
+;; Org mode setup
+(require 'org)
+(setq org-directory "~/org-directory")
+
 ;; Add our local MELPA (if available)
 (cc-load-file "localmelpa/cclocalmelpa.el")
 (package-initialize)
