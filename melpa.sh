@@ -24,5 +24,6 @@ make recipes/multiple-cursors
 make recipes/aggressive-indent
 make recipes/ws-butler
 make recipes/mediawiki
+make recipes/haskell-mode
 
 make json

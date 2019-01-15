@@ -7,6 +7,7 @@
 				    aggressive-indent
 				    ws-butler
 				    mediawiki
+				    haskell-mode
 				    ))
 
 ;; This can probably be seriously cleaned up
