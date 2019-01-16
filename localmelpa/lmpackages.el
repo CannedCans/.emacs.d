@@ -8,6 +8,11 @@
 				    ws-butler
 				    mediawiki
 				    haskell-mode
+
+				    ;; Packages from the Debian
+				    ;; migration are after here
+				    magit
+				    company
 				    ))
 
 ;; This can probably be seriously cleaned up

@@ -26,4 +26,8 @@ make recipes/ws-butler
 make recipes/mediawiki
 make recipes/haskell-mode
 
+# Packages from the Debian migration are after here
+make recipes/company
+make recipes/magit
+
 make json
