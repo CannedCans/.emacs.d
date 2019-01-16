@@ -19,7 +19,6 @@ cd melpa
 
 # Add the packages to be provided by the local repo here
 # Format is recipes/packagename
-make recipes/magit
 make recipes/multiple-cursors
 make recipes/aggressive-indent
 make recipes/ws-butler
