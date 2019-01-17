@@ -8,6 +8,8 @@
 				    ws-butler
 				    mediawiki
 				    haskell-mode
+				    helm
+				    helm-org-rifle
 
 				    ;; Packages from the Debian
 				    ;; migration are after here
