@@ -18,11 +18,10 @@
       (message "CC - Local MELPA available")
     (message "CC - Local MELPA unavailable")))
 
-(defun cc-install-local-melpa ()
+(defun cc-force-install-local-melpa ()
   "Force installs the local MELPA to the package archives
    Auto-run when cclocalmelpa.el is loaded if
    cc-use-local-melpa and cc-local-melpa-available are t"
-  (interactive)
   (add-to-list 'package-archives (cons "melpa-local" (concat cc-local-melpa-path "/packages/")))
   ;;(setq package-archives '(("melpa-local" . "~/melpa/html/")))
   (message "CC - Local MELPA installed to package-archives")
@@ -37,6 +36,6 @@
 (cc-local-melpa-status)
 (if (and cc-use-local-melpa cc-local-melpa-available)
     (progn
-      (cc-install-local-melpa)
+      (cc-force-install-local-melpa)
       )
   )
