@@ -10,14 +10,24 @@
 ;; Set cc-local-melpa-available to t if there is
 (defvar cc-local-melpa-available (file-directory-p cc-local-melpa-path))
 
-(if (not cc-local-melpa-available)
-    (message "CC - Local MELPA not available")
-)
+(defun cc-local-melpa-status ()
+  "Prints a message to the user if the local MELPA is enabled and installed.
+   Also informs the user if it is not available."
+  (interactive)
+  (if (and cc-use-local-melpa cc-local-melpa-available)
+      (message "CC - Local MELPA available")
+  (message "CC - Local MELPA unavailable")))
 
+(if (not cc-local-melpa-available)
+    ;; No local MELPA files
+    (message "CC - Local MELPA not installed")
+  )
+
+(cc-local-melpa-status)
 (if (and cc-use-local-melpa cc-local-melpa-available)
     (progn
       (add-to-list 'package-archives (cons "melpa-local" (concat cc-local-melpa-path "/packages/")))
       ;;(setq package-archives '(("melpa-local" . "~/melpa/html/")))
-      (message "CC - Local MELPA enabled")
-    )
-)
+      (message "CC - Local MELPA installed to package-archives")
+      )
+  )
