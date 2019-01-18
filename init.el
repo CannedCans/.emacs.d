@@ -120,4 +120,14 @@
 
 (if (package-installed-p 'ws-butler)
     (ws-butler-global-mode)
-)
+  )
+
+(if (package-installed-p 'helm)
+    ;;(require 'helm-config)
+    (progn
+      (global-set-key (kbd "M-x") 'helm-M-x)
+      (global-set-key (kbd "C-x r b") 'helm-filtered-bookmarks)
+      (global-set-key (kbd "C-x C-f") 'helm-find-files)
+      (helm-mode 1) ;; Enable globally
+      )
+  )
