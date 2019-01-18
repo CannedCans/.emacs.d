@@ -15,8 +15,16 @@
    Also informs the user if it is not available."
   (interactive)
   (if (and cc-use-local-melpa cc-local-melpa-available)
-      (message "CC - Local MELPA available")
+      (message "CC - Local MELPA available and installed")
     (message "CC - Local MELPA unavailable")))
+
+(defun cc-local-melpa-rescan ()
+  "Rescans for a local MELPA. Messages the user with it's updated status."
+  (interactive)
+  (setq cc-local-melpa-available (file-directory-p cc-local-melpa-path))
+  (if cc-local-melpa-available
+      (message "CC - Local MELPA available to install")
+    (message "CC - Local MELPA unavailable to install")))
 
 (defun cc-force-install-local-melpa ()
   "Force installs the local MELPA to the package archives
