@@ -10,6 +10,8 @@
 				    haskell-mode
 				    helm
 				    helm-org-rifle
+				    hydra
+				    treemacs
 
 				    ;; Packages from the Debian
 				    ;; migration are after here
