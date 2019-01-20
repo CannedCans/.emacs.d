@@ -28,7 +28,13 @@
 
 ;; Org mode setup
 (require 'org)
-(setq org-directory "~/org-directory")
+(when (file-directory-p "~/org-directory")
+  (progn
+    (message "CC - Org directory found, loading")
+    (setq org-directory "~/org-directory")
+    (setq org-agenda-files '("~/org-directory"))
+    )
+  )
 
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c a") 'org-agenda)
