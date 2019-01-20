@@ -11,7 +11,7 @@
 				    helm
 				    helm-org-rifle
 				    hydra
-				    treemacs
+				    ;;treemacs
 
 				    ;; Packages from the Debian
 				    ;; migration are after here
