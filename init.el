@@ -137,3 +137,9 @@
       (helm-mode 1) ;; Enable globally
       )
   )
+
+(when (package-installed-p 'company-math)
+  (progn
+    (add-to-list 'company-backends 'company-math-symbols-latex)
+    )
+  )

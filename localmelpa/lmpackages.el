@@ -11,6 +11,7 @@
 				    helm
 				    helm-org-rifle
 				    hydra
+				    company-math
 				    ;;treemacs
 
 				    ;; Packages from the Debian

@@ -33,6 +33,8 @@ make recipes/hydra
 make recipes/ht; make recipes/pfuture; make recipes/ace-window; make recipes/s
 make recipes/treemacs
 
+make recipes/math-symbol-lists; make recipes/company-math
+
 # Packages from the Debian migration are after here
 make recipes/company
 make recipes/async; make recipes/dash; make recipes/git-commit; make recipes/magit-popup; make recipes/with-editor # The dependencies of magit
