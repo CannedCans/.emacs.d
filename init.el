@@ -145,3 +145,7 @@
     (add-to-list 'company-backends 'company-math-symbols-latex)
     )
   )
+
+(when (package-installed-p 'haskell-mode)
+  (defalias 'haskell 'haskell-change-process)
+  )
