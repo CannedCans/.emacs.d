@@ -147,5 +147,5 @@
   )
 
 (when (package-installed-p 'haskell-mode)
-  (defalias 'haskell 'haskell-change-process)
+  (defalias 'haskell 'haskell-session-change)
   )
