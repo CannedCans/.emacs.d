@@ -10,6 +10,8 @@
 (display-time-mode 60)   ;; Puts a time display on the bottom
 (display-battery-mode 1) ;; Shows the battery at the bottom
 
+(tool-bar-mode -1) ;; Disables the copy icon at the top
+
 ;; Sets the shell for M-x shell as bash, Emacs doesn't play well
 ;; with my shell of choice, fish
 (setq-default explicit-shell-file-name "/bin/bash")
