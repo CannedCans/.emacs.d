@@ -12,6 +12,7 @@
 				    helm-org-rifle
 				    hydra
 				    company-math
+				    flycheck
 				    ;;treemacs
 
 				    ;; Packages from the Debian
