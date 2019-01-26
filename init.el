@@ -150,6 +150,10 @@
   (defalias 'haskell 'haskell-session-change)
   )
 
+(when (package-installed-p 'flycheck)
+  (add-hook 'after-init-hook #'global-flycheck-mode)
+  )
+
 (when (package-installed-p 'flycheck-pos-tip)
   (flycheck-pos-tip-mode)
   )
