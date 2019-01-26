@@ -12,8 +12,10 @@
 				    helm-org-rifle
 				    hydra
 				    company-math
+
 				    flycheck
 				    flycheck-pos-tip
+				    flycheck-haskell
 				    ;;treemacs
 
 				    ;; Packages from the Debian

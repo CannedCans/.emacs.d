@@ -157,3 +157,7 @@
 (when (package-installed-p 'flycheck-pos-tip)
   (flycheck-pos-tip-mode)
   )
+
+(when (package-installed-p 'flycheck-haskell)
+  (add-hook 'haskell-mode-hook #'flycheck-haskell-setup)
+  )
