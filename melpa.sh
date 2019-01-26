@@ -44,4 +44,6 @@ make recipes/magit
 
 make recipes/epl; make recipes/pkg-info; make recipes/flycheck # Also needs dash, see above
 
+make recipes/pos-tip; make recipes/flycheck-pos-tip # Also needs flycheck
+
 make json

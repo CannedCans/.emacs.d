@@ -13,6 +13,7 @@
 				    hydra
 				    company-math
 				    flycheck
+				    flycheck-pos-tip
 				    ;;treemacs
 
 				    ;; Packages from the Debian

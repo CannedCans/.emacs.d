@@ -149,3 +149,7 @@
 (when (package-installed-p 'haskell-mode)
   (defalias 'haskell 'haskell-session-change)
   )
+
+(when (package-installed-p 'flycheck-pos-tip)
+  (flycheck-pos-tip-mode)
+  )
