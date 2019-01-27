@@ -40,6 +40,8 @@ make recipes/company
 make recipes/async; make recipes/dash; make recipes/git-commit; make recipes/magit-popup; make recipes/with-editor # The dependencies of magit
 make recipes/magit
 
+make recipes/js2-mode
+
 # End debian migration
 
 make recipes/epl; make recipes/pkg-info; make recipes/flycheck # Also needs dash, see above

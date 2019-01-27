@@ -29,7 +29,6 @@ apt-get install -y gnutls-bin
 apt-get install -y make
 
 # What the packages are
-# elpa-js2-mode - Javascript modes
 # elpa-iedit - Allows you to edit multiple occurrences of the same string at the same time
 # elpa-elfeed - A RSS reader
 # slime - Common Lisp support
@@ -38,7 +37,7 @@ apt-get install -y make
 # elpa-projectile - Easier project navigation
 # elpa-anzu - Shows the amount of matches when searching with C-s
 # elpa-markdown-mode - Nicer mode for editing markdown files
-apt-get install -y elpa-js2-mode elpa-iedit elpa-elfeed slime elpa-git-timemachine elpa-yasnippet elpa-projectile elpa-anzu elpa-markdown-mode
+apt-get install -y elpa-iedit elpa-elfeed slime elpa-git-timemachine elpa-yasnippet elpa-projectile elpa-anzu elpa-markdown-mode
 
 # Install the heavier packages that are somewhat optional
 # Auctex - A somewhat nicer LaTeX mode, requires lots of LaTeX packages to install

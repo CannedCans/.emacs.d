@@ -22,6 +22,7 @@
 				    ;; migration are after here
 				    magit
 				    company
+				    js2-mode
 				    ))
 
 ;; This can probably be seriously cleaned up
