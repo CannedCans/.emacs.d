@@ -17,6 +17,7 @@
 				    flycheck-pos-tip
 				    flycheck-haskell
 				    ;;treemacs
+				    smart-mode-line
 
 				    ;; Packages from the Debian
 				    ;; migration are after here

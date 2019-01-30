@@ -161,3 +161,7 @@
 (when (package-installed-p 'flycheck-haskell)
   (add-hook 'haskell-mode-hook #'flycheck-haskell-setup)
   )
+
+(when (package-installed-p 'smart-mode-line)
+  (sml/setup)
+  )
