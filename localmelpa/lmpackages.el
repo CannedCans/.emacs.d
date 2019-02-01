@@ -18,6 +18,7 @@
 				    flycheck-haskell
 				    ;;treemacs
 				    smart-mode-line
+				    solarized-theme
 
 				    ;; Packages from the Debian
 				    ;; migration are after here

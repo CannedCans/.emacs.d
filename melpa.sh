@@ -50,9 +50,11 @@ make recipes/pos-tip; make recipes/flycheck-pos-tip # Also needs flycheck
 
 make recipes/flycheck-haskell
 
+make recipes/rich-minority; make recipes/smart-mode-line
+
+make recipes/solarized-theme
 # Packages that aren't yet put into my config
 # Just for testing
-make recipes/rich-minority; make recipes/smart-mode-line
 
 
 # End packages that aren't yet put into my config
