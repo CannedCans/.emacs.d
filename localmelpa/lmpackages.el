@@ -16,6 +16,7 @@
 				    flycheck
 				    flycheck-pos-tip
 				    flycheck-haskell
+				    flycheck-irony
 				    ;;treemacs
 				    smart-mode-line
 				    solarized-theme

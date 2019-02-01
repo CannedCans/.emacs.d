@@ -49,6 +49,7 @@ make recipes/epl; make recipes/pkg-info; make recipes/flycheck # Also needs dash
 make recipes/pos-tip; make recipes/flycheck-pos-tip # Also needs flycheck
 
 make recipes/flycheck-haskell
+make recipes/irony; make recipes/flycheck-irony
 
 make recipes/rich-minority; make recipes/smart-mode-line
 
