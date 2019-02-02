@@ -43,12 +43,17 @@
     (when (file-directory-p "~/org-directory/hidden")
       (setq org-agenda-files '("~/org-directory" "~/org-directory/hidden"))
       )
+    (when (package-installed-p 'org-journal)
+      (setq org-journal-dir "~/org-directory/journal")
+      )
     )
   )
 
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c a") 'org-agenda)
 (global-set-key (kbd "C-c c") 'org-capture)
+
+
 
 ;; Install local MELPA packages
 (cc-load-file "localmelpa/lmpackages.el")
