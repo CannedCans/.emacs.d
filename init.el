@@ -28,6 +28,11 @@
 ;; General Bindings
 (global-set-key (kbd "C-c r") 'recenter)
 
+
+;; Add our local MELPA (if available)
+(cc-load-file "localmelpa/cclocalmelpa.el")
+(package-initialize)
+
 ;; Org mode setup
 (require 'org)
 (when (file-directory-p "~/org-directory")
@@ -44,10 +49,6 @@
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c a") 'org-agenda)
 (global-set-key (kbd "C-c c") 'org-capture)
-
-;; Add our local MELPA (if available)
-(cc-load-file "localmelpa/cclocalmelpa.el")
-(package-initialize)
 
 ;; Install local MELPA packages
 (cc-load-file "localmelpa/lmpackages.el")
