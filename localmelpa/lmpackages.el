@@ -20,6 +20,8 @@
 				    ;;treemacs
 				    smart-mode-line
 				    solarized-theme
+				    org-journal
+				    org-brain
 
 				    ;; Packages from the Debian
 				    ;; migration are after here
