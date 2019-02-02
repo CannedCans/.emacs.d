@@ -1,4 +1,4 @@
-
+;; This file is not part of GNU Emacs
 
 ;; Loads a file that is under the .emacs.d directory (user-emacs-directory)
 ;; eg. (cc-load-file "settings/ccelfeed.el")
@@ -172,20 +172,3 @@
     (sml/setup)
     )
   )
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-safe-themes
-   (quote
-    ("a27c00821ccfd5a78b01e4f35dc056706dd9ede09a8b90c6955ae6a390eb1c1e" default)))
- '(package-selected-packages
-   (quote
-    (flycheck-irony yasnippet projectile markdown-mode iedit git-timemachine flx-ido elfeed anzu ws-butler solarized-theme smart-mode-line multiple-cursors mediawiki magit js2-mode hydra helm-org-rifle flycheck-pos-tip flycheck-haskell company-math chess aggressive-indent))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
