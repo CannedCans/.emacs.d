@@ -35,6 +35,9 @@
     (message "CC - Org directory found, loading")
     (setq org-directory "~/org-directory")
     (setq org-agenda-files '("~/org-directory"))
+    (when (file-directory-p "~/org-directory/hidden")
+      (setq org-agenda-files '("~/org-directory" "~/org-directory/hidden"))
+      )
     )
   )
 
