@@ -22,6 +22,7 @@
 				    solarized-theme
 				    org-journal
 				    org-brain
+				    org-wiki
 
 				    ;; Packages from the Debian
 				    ;; migration are after here
