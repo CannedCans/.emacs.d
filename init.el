@@ -46,9 +46,6 @@
     (when (package-installed-p 'org-journal)
       (setq org-journal-dir "~/org-directory/journal")
       )
-    (when (package-installed-p 'org-wiki)
-      (setq org-wiki-location-list '("~/org-directory/wiki"))
-      )
 
     )
   )

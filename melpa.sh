@@ -54,7 +54,6 @@ make recipes/irony; make recipes/flycheck-irony
 make recipes/rich-minority; make recipes/smart-mode-line
 
 make recipes/org-journal; make recipes/org-brain
-make recipes/org-wiki
 
 make recipes/solarized-theme
 # Packages that aren't yet put into my config
