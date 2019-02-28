@@ -35,6 +35,14 @@
   (message "CC - Local MELPA installed to package-archives")
   )
 
+(defun cc-update-local-melpa ()
+  "Runs ~/.emacs.d/melpa.sh to update the packages in the local MELPA"
+  (interactive)
+  (if (and cc-use-local-melpa cc-local-melpa-available)
+      (async-shell-command "~/.emacs.d/melpa.sh")
+    (message "Unable to update the local MELPA")
+    )
+  )
 
 (if (not cc-local-melpa-available)
     ;; No local MELPA files
