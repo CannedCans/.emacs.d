@@ -35,7 +35,7 @@
   (message "CC - Local MELPA installed to package-archives")
   )
 
-(defun cc-update-local-melpa ()
+(defun cc-local-melpa-update ()
   "Runs ~/.emacs.d/melpa.sh to update the packages in the local MELPA"
   (interactive)
   (if (and cc-use-local-melpa cc-local-melpa-available)
