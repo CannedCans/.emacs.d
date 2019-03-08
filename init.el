@@ -6,11 +6,12 @@
   (load-file (concat user-emacs-directory relpath))
 )
 
-(global-linum-mode 60)   ;; Puts line numbers on the left of every buffer
-(display-time-mode 60)   ;; Puts a time display on the bottom
-(display-battery-mode 1) ;; Shows the battery at the bottom
+(global-linum-mode 60)    ;; Puts line numbers on the left of every buffer
+(display-time-mode 60)    ;; Puts a time display on the bottom
+(display-battery-mode 1)  ;; Shows the battery at the bottom
 
-(tool-bar-mode -1) ;; Disables the copy icon at the top
+(tool-bar-mode -1)        ;; Disables the copy icon at the top
+(set-scroll-bar-mode nil) ;; Disable scroll bar
 
 ;; Sets the shell for M-x shell as bash, Emacs doesn't play well
 ;; with my shell of choice, fish
