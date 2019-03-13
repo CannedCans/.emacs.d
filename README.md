@@ -3,7 +3,7 @@ My Emacs configuration, incredibly basic with a few packages installed
 
 Note: If you choose to use this config on your own computer, you may have to jump through slight hoops to get the packages installed unless you are using Debian (where many of the packages are available on stable).
 
-If you are using Debian, run `debian.sh` as root and it will install the packages that I use.
+If you are using Debian, run `debian.sh` as root and it will install some of the packages that I use that haven't been transitioned to the local MELPA (see below).
 
 eg. `cd ~/.emacs.d; sudo ./debian.sh` (you must have sudo access to do this)
 
