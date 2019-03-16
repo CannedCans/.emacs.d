@@ -59,6 +59,8 @@ make recipes/solarized-theme
 
 make recipes/avy
 
+make recipes/intero # Also needs haskell-mode, flycheck, libtinfo-dev from debian apparently
+
 # Packages that aren't yet put into my config
 # Just for testing
 
