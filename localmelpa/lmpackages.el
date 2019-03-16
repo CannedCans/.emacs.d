@@ -24,7 +24,7 @@
 				    org-brain
 
 				    avy
-				    intero
+				    ;;intero ;; Needs stack
 
 				    ;; Packages from the Debian
 				    ;; migration are after here
