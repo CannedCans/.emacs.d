@@ -24,6 +24,7 @@
 				    org-brain
 
 				    avy
+				    intero
 
 				    ;; Packages from the Debian
 				    ;; migration are after here
