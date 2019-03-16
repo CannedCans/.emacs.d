@@ -56,6 +56,9 @@ make recipes/rich-minority; make recipes/smart-mode-line
 make recipes/org-journal; make recipes/org-brain
 
 make recipes/solarized-theme
+
+make recipes/avy
+
 # Packages that aren't yet put into my config
 # Just for testing
 

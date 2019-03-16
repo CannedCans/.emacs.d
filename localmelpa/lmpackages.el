@@ -23,6 +23,8 @@
 				    org-journal
 				    org-brain
 
+				    avy
+
 				    ;; Packages from the Debian
 				    ;; migration are after here
 				    magit
