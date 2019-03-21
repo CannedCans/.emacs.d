@@ -26,6 +26,8 @@
 				    avy
 				    ;;intero ;; Needs stack
 
+				    bm
+
 				    ;; Packages from the Debian
 				    ;; migration are after here
 				    magit
