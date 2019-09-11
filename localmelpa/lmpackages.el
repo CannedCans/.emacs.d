@@ -25,6 +25,8 @@
 
 				    avy
 				    ;;intero ;; Needs stack
+				    bbdb
+				    helm-bbdb
 
 				    ;; Packages from the Debian
 				    ;; migration are after here

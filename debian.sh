@@ -39,9 +39,6 @@ apt-get install -y make
 # elpa-markdown-mode - Nicer mode for editing markdown files
 apt-get install -y elpa-iedit elpa-elfeed slime elpa-git-timemachine elpa-yasnippet elpa-projectile elpa-anzu elpa-markdown-mode
 
-# Ideally this should be moved over to the MELPA
-apt-get install bbdb
-
 # Install the heavier packages that are somewhat optional
 # Auctex - A somewhat nicer LaTeX mode, requires lots of LaTeX packages to install
 apt-get install -y auctex
