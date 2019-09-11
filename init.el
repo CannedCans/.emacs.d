@@ -195,7 +195,12 @@
 
 (when (package-installed-p 'bbdb)
   (progn
-    (add-hook 'mail-setup-hook 'bbdb-define-all-aliases)
-    (add-hook 'message-setup-hook 'bbdb-define-all-aliases)
+    ;; BBDB v2
+    ;; (add-hook 'mail-setup-hook 'bbdb-define-all-aliases)
+    ;; (add-hook 'message-setup-hook 'bbdb-define-all-aliases)
+
+    ;; BBDB v3
+    (add-hook 'mail-setup-hook 'bbdb-mail-aliases)
+    (add-hook 'message-setup-hook 'bbdb-mail-aliases)
     )
   )
