@@ -1,10 +1,13 @@
 ;; This file is not part of GNU Emacs
 
+;; Start using https ELPA
+(setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")))
+
 ;; Loads a file that is under the .emacs.d directory (user-emacs-directory)
 ;; eg. (cc-load-file "settings/ccelfeed.el")
 (defun cc-load-file (relpath)
   (load-file (concat user-emacs-directory relpath))
-)
+  )
 
 (global-linum-mode 60)    ;; Puts line numbers on the left of every buffer
 (display-time-mode 60)    ;; Puts a time display on the bottom
