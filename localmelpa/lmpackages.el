@@ -22,6 +22,7 @@
 				    solarized-theme
 				    org-journal
 				    org-brain
+				    forge
 
 				    avy
 				    ;;intero ;; Needs stack
@@ -33,6 +34,7 @@
 				    magit
 				    company
 				    js2-mode
+				    markdown-mode
 				    ))
 
 ;; This can probably be seriously cleaned up
