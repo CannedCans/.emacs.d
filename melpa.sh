@@ -64,7 +64,12 @@ make recipes/intero # Also needs haskell-mode, flycheck, libtinfo-dev from debia
 make recipes/bbdb
 make recipes/helm-bbdb
 
-make recipes/emacsql; make recipes/emacsql-sqlite; make recipes/forge
+make recipes/markdown-mode
+
+make recipes/emacsql; make recipes/emacsql-sqlite; make recipes/closql
+make recipes/treepy; make recipes/ghub
+
+make recipes/forge
 
 # Packages that aren't yet put into my config
 # Just for testing
