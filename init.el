@@ -1,6 +1,6 @@
 ;; This file is not part of GNU Emacs
 
-(setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
+;;(setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
 
 ;; Start using https ELPA
 (setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")))
