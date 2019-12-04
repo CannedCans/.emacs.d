@@ -71,7 +71,7 @@ make recipes/treepy; make recipes/ghub
 
 make recipes/forge
 
-make recipes/key-chord; make recipes/biblio-core; make recipes/biblio; make recipes/parsebib; make recipes/helm-bibtex; make recipes/htmlize; make recipes/tablist; make recipes/pdf-tools; make recipes/org-ref
+make recipes/ivy; make recipes/key-chord; make recipes/biblio-core; make recipes/biblio; make recipes/parsebib; make recipes/helm-bibtex; make recipes/htmlize; make recipes/tablist; make recipes/pdf-tools; make recipes/org-ref
 
 # Packages that aren't yet put into my config
 # Just for testing
