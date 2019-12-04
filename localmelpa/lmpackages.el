@@ -28,6 +28,8 @@
 				    ;;intero ;; Needs stack
 				    bbdb
 				    helm-bbdb
+				    helm-bibtex
+				    org-ref
 
 				    ;; Packages from the Debian
 				    ;; migration are after here

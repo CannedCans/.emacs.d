@@ -30,7 +30,7 @@ make recipes/f; make recipes/s; make recipes/helm;
 make recipes/helm-org-rifle
 
 make recipes/hydra
-make recipes/ht; make recipes/pfuture; make recipes/ace-window; make recipes/s
+make recipes/ht; make recipes/pfuture; make recipes/ace-window
 make recipes/treemacs
 
 make recipes/math-symbol-lists; make recipes/company-math
@@ -70,6 +70,8 @@ make recipes/emacsql; make recipes/emacsql-sqlite; make recipes/closql
 make recipes/treepy; make recipes/ghub
 
 make recipes/forge
+
+make recipes/helm-bibtex; make recipes/htmlize; make recipes/pdf-tools; make recipes/org-ref
 
 # Packages that aren't yet put into my config
 # Just for testing
