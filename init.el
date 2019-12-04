@@ -61,7 +61,7 @@
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c a") 'org-agenda)
 (global-set-key (kbd "C-c c") 'org-capture)
-
+(global-set-key (kbd "C-c m") 'org-mark-ring-goto)
 
 
 ;; Install local MELPA packages
@@ -138,7 +138,7 @@
 ;; Initialize MELPA only packages
 (if (package-installed-p 'aggressive-indent)
     (progn
-      (global-aggressive-indent-mode 1)
+      ;;(global-aggressive-indent-mode 1)
       ;;(add-to-list 'aggressive-indent-excluded-modes 'html-mode)
       (message "CC - Aggressive Indent enabled")
       )
@@ -207,3 +207,4 @@
     (add-hook 'message-setup-hook 'bbdb-mail-aliases)
     )
   )
+
