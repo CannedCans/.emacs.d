@@ -21,7 +21,6 @@
 				    smart-mode-line
 				    solarized-theme
 				    org-journal
-				    org-brain
 				    forge
 
 				    avy
