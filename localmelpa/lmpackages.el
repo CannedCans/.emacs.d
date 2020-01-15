@@ -29,7 +29,7 @@
 				    helm-bbdb
 				    helm-bibtex
 				    org-ref
-				    org-alert
+				    ;;org-alert
 
 				    ;; Packages from the Debian
 				    ;; migration are after here
