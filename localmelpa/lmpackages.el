@@ -26,7 +26,7 @@
 				    avy
 				    ;;intero ;; Needs stack
 				    bbdb
-				    helm-bbdb
+				    helm-bbdb ;; Use M-RET to simulate RET for issue
 				    helm-bibtex
 				    org-ref
 				    ;;org-alert
