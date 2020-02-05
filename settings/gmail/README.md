@@ -17,3 +17,8 @@ You must have IMAP enabled and have specific labels set to be sent over IMAP
 Move `.mbsyncrc` to ~
 Add user information to the file
 Replace the nnimap with '(nnmaildir "gmail" (directory "~/.mail/gmail"))
+
+# Using mu4e
+Move `secretemail.el` to ~/secret/secretemail.el
+Replace user information (email address and name) with your own
+Have .authinfo have your information

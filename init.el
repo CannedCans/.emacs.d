@@ -219,3 +219,17 @@
 (setq mu4e-maildir (expand-file-name "~/.mail/gmail"))
 (setq mu4e-sent-messages-behavior 'delete)
 (setq mu4e-get-mail-command "mbsync -a")
+(cc-load-file "secret/secretemail.el")
+
+(require 'smtpmail)
+
+(setq message-send-mail-function 'smtpmail-send-it
+      starttls-use-gnutls t
+      smtpmail-starttls-credentials
+      '(("smtp.gmail.com" 587 nil nil))
+      smtpmail-auth-credentials
+      (expand-file-name "~/.authinfo")
+      smtpmail-default-smtp-server "smtp.gmail.com"
+      smtpmail-smtp-server "smtp.gmail.com"
+      smtpmail-smtp-service 587
+      smtpmail-debug-info t)
