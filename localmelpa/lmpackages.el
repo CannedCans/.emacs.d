@@ -30,6 +30,7 @@
 				    helm-bibtex
 				    org-ref
 				    ;;org-alert
+				    org-drill
 
 				    ;; Packages from the Debian
 				    ;; migration are after here

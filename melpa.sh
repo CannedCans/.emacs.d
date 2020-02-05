@@ -75,6 +75,8 @@ make recipes/ivy; make recipes/key-chord; make recipes/biblio-core; make recipes
 
 make recipes/gntp; make recipes/log4e; make recipes/alert; make recipes/org-alert
 
+make recipes/org-drill
+
 # Packages that aren't yet put into my config
 # Just for testing
 
