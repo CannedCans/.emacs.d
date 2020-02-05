@@ -215,3 +215,7 @@
 (when (package-installed-p 'org-alert)
   (org-alert-enable)
   )
+
+(setq mu4e-maildir (expand-file-name "~/.mail/gmail"))
+(setq mu4e-sent-messages-behavior 'delete)
+(setq mu4e-get-mail-command "mbsync -a")
