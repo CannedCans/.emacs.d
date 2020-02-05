@@ -1,5 +1,7 @@
 ;; This file is not part of GNU Emacs
 
+;; Uncomment if there are any issues
+;; Specifically, if 'Bad Request' when downloading from ELPA
 ;;(setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
 
 ;; Start using https ELPA
