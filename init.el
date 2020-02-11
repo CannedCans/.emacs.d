@@ -217,7 +217,7 @@
   )
 
 (setq mu4e-maildir (expand-file-name "~/.mail/gmail"))
-(setq mu4e-trash-folder "/[Gmail].Trash")
+(setq mu4e-trash-folder "/[Gmail]/Trash") ;; This may not work yet
 (setq mu4e-sent-messages-behavior 'delete)
 (setq mu4e-get-mail-command "mbsync -a")
 (cc-load-file "secret/secretemail.el")
