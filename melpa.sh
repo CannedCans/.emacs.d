@@ -77,6 +77,8 @@ make recipes/gntp; make recipes/log4e; make recipes/alert; make recipes/org-aler
 
 make recipes/org-drill
 
+make recipes/typescript-mode
+
 # Packages that aren't yet put into my config
 # Just for testing
 

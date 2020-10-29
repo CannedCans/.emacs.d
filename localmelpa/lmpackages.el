@@ -31,6 +31,7 @@
 				    org-ref
 				    ;;org-alert
 				    org-drill
+				    typescript-mode
 
 				    ;; Packages from the Debian
 				    ;; migration are after here
